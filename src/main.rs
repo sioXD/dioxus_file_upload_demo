@@ -1,5 +1,5 @@
 use dioxus::{fullstack::{FileStream}, prelude::*};
-use dioxus_html::{HasFileData};
+use dioxus::html::HasFileData;
 
 fn main() {
     dioxus::launch(App);
